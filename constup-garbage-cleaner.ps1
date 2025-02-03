@@ -300,6 +300,9 @@ if (Test-Path $cleanupListFile)
             Write-Host "Total registry entries deleted: $totalRegistryEntries"
         }
 
+        Write-Host '----------'
+        Write-Host 'If you want to see how to prevent some of the garbage from appearing again, run `pwsh .\constup-garbage-cleaner-powershell.ps1 --dry-run --detailed`.'
+
         exit 0
     }
 } else {
