@@ -2,6 +2,12 @@
 :toc:
 :toclevels: 5
 
+== IMPORTANT NOTE
+
+*Due to GitHub being integrated into Microsoft’s CoreAI division and effectivelly becoming Microsoft’s data source for 
+training Microsoft’s LLMs without attributing or compensating open source authors and projects, this repository is 
+now locked until it’s transferred to another platform.*
+
 == Support this tool
 
 link:https://ko-fi.com/E1E3VQUK2[image:https://ko-fi.com/img/githubbutton_sm.svg[Ko-fi]]
