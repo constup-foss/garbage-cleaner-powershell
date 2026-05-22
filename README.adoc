@@ -87,7 +87,7 @@ https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powers
 
 === Method 1: Download a release
 
-Download a release from https://github.com/constup-foss/garbage-cleaner-powershell/downloads/?tab=downloads and extract
+Download a release from https://github.com/constup-foss/garbage-cleaner-powershell/releases and extract
 it to your desired location.
 
 To update, just download a newer release.
