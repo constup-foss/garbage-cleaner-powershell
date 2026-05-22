@@ -2,9 +2,7 @@
 :toc:
 :toclevels: 5
 
-== Support this tool
-
-link:https://ko-fi.com/E1E3VQUK2[image:https://ko-fi.com/img/githubbutton_sm.svg[Ko-fi]]
+image:https://img.shields.io/badge/PowerShell-7.4-white[Static Badge]
 
 == Description
 
@@ -97,21 +95,21 @@ To update, just download a newer release.
 
 [source,shell]
 ----
-git clone git@github.com:constup/garbage-cleaner-powershell.git
+git clone git@github.com:constup-foss/garbage-cleaner-powershell.git
 ----
 
 or:
 
 [source,shell]
 ----
-git clone https://github.com/constup/garbage-cleaner-powershell.git
+git clone https://github.com/constup-foss/garbage-cleaner-powershell.git
 ----
 
 or with GitHub CLI:
 
 [source,shell]
 ----
-gh repo clone constup/garbage-cleaner-powershell
+gh repo clone constup-foss/garbage-cleaner-powershell
 ----
 
 === Updating
@@ -222,11 +220,13 @@ category,...)
 * link:CONTRIBUTING.adoc[Contributing] - guidelines for software contribution, feature requests and populating the
 cleanup list
 
-== Support
+== Supporting development
 
 If you like this tool or find it useful, consider buying me a nice cup of coffee. Coffee fuels open source.
 
-link:https://ko-fi.com/E1E3VQUK2[image:https://ko-fi.com/img/githubbutton_sm.svg[Ko-fi]]
+image:doc/bmac.png[width=197]
+
+link:https://www.buymeacoffee.com/puEW3HvWvP[image:https://cdn.buymeacoffee.com/buttons/v2/default-green.png[width=200]]
 
 == License
 
