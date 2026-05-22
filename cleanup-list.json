@@ -178,15 +178,81 @@
     },
     "active": true
   },
-    "cyberpunk_2077_crash_report_queue": {
-      "application": "Cyberpunk 2077",
-      "category": "game",
-      "entity_category": "crash log",
-      "description": "Cyberpunk 2077 crash logs and memory dumps.",
-      "delete": {
-        "type": "directory",
-        "location": "~/AppData/Local/REDEngine/ReportQueue"
-      },
-      "active": true
-    }
+  "cyberpunk_2077_crash_report_queue": {
+    "application": "Cyberpunk 2077",
+    "category": "game",
+    "entity_category": "crash log",
+    "description": "Cyberpunk 2077 crash logs and memory dumps.",
+    "delete": {
+      "type": "directory",
+      "location": "~/AppData/Local/REDEngine/ReportQueue"
+    },
+    "active": true
+  },
+  "asciidoctor_intellij": {
+    "application": "JetBrains",
+    "category": "IDE",
+    "entity_category": "temporary files",
+    "description": "ASCIIDoctor plugin for JetBrains IDEs temporary folders.",
+    "delete": {
+      "type": "directory",
+      "location": "~/AppData/Local/Temp/asciidoctor-intellij*"
+    },
+    "active": true
+  },
+  "chrome_url_fetcher_temp_files": {
+    "application": "Chromium",
+    "category": "browser",
+    "entity_category": "temporary files",
+    "description": "Temporary folders for fetching resources from URLs by scripts and browsers. Created by browsers on Chromium engine (ex. Brave).",
+    "delete": {
+      "type": "directory",
+      "location": "~/AppData/Local/Temp/chrome_url_fetcher_*"
+    },
+    "active": true
+  },
+  "docker_temporary_icons": {
+    "application": "Docker",
+    "category": "virtualization",
+    "entity_category": "temporary files",
+    "description": "Temporary icons created by Docker Desktop. Why? I really don't know.",
+    "delete": {
+      "type": "file",
+      "location": "~/AppData/Local/Temp/*.tmp.ico"
+    },
+    "active": true
+  },
+  "jffi_temporary_dlls": {
+    "application": "JetBrains",
+    "category": "IDE",
+    "entity_category": "temporary files",
+    "description": "Java bindings for libffi creates temporary dlls and does not delete them. These files are produced by IntelliJ even during the update process. More info: https://github.com/jnr/jffi/issues/97",
+    "delete": {
+      "type": "file",
+      "location": "~/AppData/Local/Temp/jffi*.dll"
+    },
+    "active": true
+  },
+  "samsung_magician_setup_log": {
+    "application": "Samsung Magician",
+    "category": "hardware",
+    "entity_category": "log",
+    "description": "Samsung Magician setup log.",
+    "delete": {
+      "type": "file",
+      "location": "~/AppData/Local/Temp/Setup Log *#*.txt"
+    },
+    "active": true
+  },
+  "visual_studio_update_log": {
+    "application": "Visual Studio",
+    "category": "IDE",
+    "entity_category": "log",
+    "description": "Microsoft Visual Studio updater service logs. These logs may contain simply `nothing to update` messages for whatever reason.",
+    "delete": {
+      "type": "file",
+      "location": "~/AppData/Local/Temp/dd_updateconfiguration*.log"
+    },
+    "active": true
+  }
 }

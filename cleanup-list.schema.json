@@ -27,7 +27,10 @@
             "communication",
             "game",
             "hardware",
-            "editing software"
+            "editing software",
+            "browser",
+            "virtualization",
+            "antivirus"
           ]
         },
         "entity_category": {
