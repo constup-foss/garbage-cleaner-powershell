@@ -3,6 +3,7 @@
 :toclevels: 5
 
 image:https://img.shields.io/badge/PowerShell-7.4-white[Static Badge]
+image:https://img.shields.io/github/downloads/constup-foss/garbage-cleaner-powershell/total[GitHub Downloads (all assets, all releases)]
 
 == Description
 
@@ -86,7 +87,7 @@ https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powers
 
 === Method 1: Download a release
 
-Download a release from https://bitbucket.org/constup/garbage-cleaner-powershell/downloads/?tab=downloads and extract
+Download a release from https://github.com/constup-foss/garbage-cleaner-powershell/downloads/?tab=downloads and extract
 it to your desired location.
 
 To update, just download a newer release.
